@@ -6,13 +6,13 @@ int main()
 {
     char ch[20];
     ifstream infile;
-    infile.open("read.txt",ios::in);
+    infile.open("read.txt", ios::in);
 
-    cout<<"reading"<<endl;
+    cout << "reading" << endl;
 
     while(!infile.eof()){
-        infile>>ch.readline();
-        cout<<ch<<endl;
+        infile >> ch.readline();
+        cout << ch << endl;
     }
 
     infile.close();
